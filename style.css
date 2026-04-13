@@ -24,7 +24,7 @@ header {
 
 header h1 {
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
     color: rgb(255, 255, 255);
     width: 260px;
     margin: auto;
@@ -39,8 +39,9 @@ header a {
 }
 
 header h1:hover {
-    background-color: black;
-    color:white
+    text-decoration: underline;
+    color:white;
+    transform: scale(1.1);
 }
 
 header > p {
@@ -94,6 +95,7 @@ img {
     margin-bottom: 10px;
     border-radius: 10px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.401);
+    max-height: 350px;
 }
 
 p {
