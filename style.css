@@ -87,6 +87,9 @@ main > div.quem > img {
 
 }
 
+main a {
+    color:white
+}
 img {
     position: sticky;
     width: 100%;
