@@ -120,14 +120,15 @@ hr {
     color: white
 }
 
-main > div {
+main > div.paginas {
     text-align: center;
     margin-top: 20px;
 }
 
-main > div > a {
+main > div.paginas > a {
     text-decoration: none;
     font-size: 20px;
     margin: 0 10px 0 10px;
     font-weight: 900;
+    padding: 10px;
 }
